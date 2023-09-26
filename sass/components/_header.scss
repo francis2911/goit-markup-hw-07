@@ -91,10 +91,6 @@ header {
     padding: 0px;
     padding-left: 273px;
 
-    a.contact__email {
-      color: $primary-color;
-    }
-
     a {
       display: flex;
       align-items: center;
@@ -110,6 +106,7 @@ header {
 
       &:hover,
       &:focus {
+        fill: $primary-color;
         color: $primary-color;
       }
     }
