@@ -111,10 +111,6 @@
     line-height: 2em;
     color: $color-title;
     letter-spacing: 0.06em;
-
-    &:hover {
-      text-decoration: underline $primary-color 1px;
-    }
   }
 
   &__text {
@@ -124,9 +120,5 @@
     line-height: 1.71em;
     letter-spacing: 0.03em;
     color: var(--var-color-text);
-
-    &:hover {
-      text-decoration: underline $primary-color 1px;
-    }
   }
 }

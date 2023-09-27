@@ -90,6 +90,7 @@ header {
     margin: auto;
     padding: 0px;
     padding-left: 273px;
+    gap: 50px;
 
     a {
       display: flex;
@@ -101,7 +102,7 @@ header {
       line-height: 1.7142em;
       letter-spacing: 0.02em;
       color: $color-text;
-      margin-right: 50px;
+      gap: 10px;
       padding: 0px;
 
       &:hover,

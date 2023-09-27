@@ -9,10 +9,6 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--var-color-title);
-
-  &:hover {
-    text-decoration: underline $primary-color 1px;
-  }
 }
 
 .client-container {

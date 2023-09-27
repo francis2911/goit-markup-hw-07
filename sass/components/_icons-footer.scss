@@ -17,10 +17,6 @@
     text-transform: uppercase;
     color: $color-text-footer;
     margin: 0 auto;
-
-    &:hover {
-      text-decoration: underline $primary-color 1px;
-    }
   }
 }
 

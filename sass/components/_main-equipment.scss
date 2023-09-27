@@ -19,10 +19,6 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: $color-title;
-
-    &:hover {
-      text-decoration: underline $primary-color 1px;
-    }
   }
 }
 
@@ -48,11 +44,6 @@
     border-radius: 0px 0px 4px 4px;
   }
 
-  &__image:hover {
-    border: 1px solid $primary-color;
-    border-radius: 2px;
-  }
-
   &__title {
     font-style: normal;
     font-weight: 700;
@@ -62,10 +53,6 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: $color-title;
-
-    &:hover {
-      text-decoration: underline $primary-color 1px;
-    }
   }
 
   &__text {
@@ -76,9 +63,6 @@
     /* or 171% */
     letter-spacing: 0.03em;
     color: $color-text;
-    &:hover {
-      text-decoration: underline $primary-color 1px;
-    }
   }
 }
 
